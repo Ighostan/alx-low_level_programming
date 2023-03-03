@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - function that print 10x alphabets
+ * print_alphabet_x10 - function that prints 10x alphabets
  *
  * Return: Always 0
  */
-
 void print_alphabet_x10(void)
 {
 	int i;
@@ -13,7 +12,7 @@ void print_alphabet_x10(void)
 
 	for (i = 1 ; i <= 10 ; i++)
 	{
-		for (i = 'a' ; j <= 'z' ; j++)
+		for (j = 'a' ; j <= 'z' ; j++)
 			_putchar(j);
 		_putchar('\n');
 	}
