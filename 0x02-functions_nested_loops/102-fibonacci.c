@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - print the first 5 fibonacci numbers
- * Return: nothing
+ * main - print the first 52 fibonacci numbers
+ * Return: Always
  */
 
 int main(void)
 
 {
-	int i;
+	int i = 0;
 	long j = 1, k = 2;
 
 	while (i < 50)
